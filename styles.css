@@ -12,6 +12,9 @@
       text-decoration: none;
 
     }
+    h4{
+      margin-left: 20px
+    }
     li{
       font-weight: bold
     }
@@ -25,5 +28,15 @@
     }
     .paragraph{
       border-left: solid 5px gray; padding:30px; margin:0px
+    }
+
+    @media(max-width:600px){
+      #contents {
+        display:grid; grid-template-columns: 1fr;
+      }
+      .paragraph{
+        border-left: solid 0px; border-top: solid 5px gray
+      }
+
     }
   </style>
