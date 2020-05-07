@@ -1,0 +1,29 @@
+<style>
+
+
+    ol{
+      margin-top: 50px
+    }
+    #contents{
+      display:grid; grid-template-columns: 200px 1fr; border-top: solid 5px gray
+    }
+    a{
+      color: hotpink;
+      text-decoration: none;
+
+    }
+    li{
+      font-weight: bold
+    }
+    .headlines
+    {
+    border: 100px solid pink; padding: 0px; margin: 0px; text-align:center;
+    }
+
+    .toc{
+      padding:0px; margin:0px
+    }
+    .paragraph{
+      border-left: solid 5px gray; padding:30px; margin:0px
+    }
+  </style>
